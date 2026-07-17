@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     TEMPLATE DE LECON — copier ce fichier pour chaque nouvelle leçon
+     IMPORTANT : tout texte arménien doit être généré via Python
+     (chr(0xXXXX)) et jamais tapé directement dans un outil.
+     ============================================================ -->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leçon NNNN — [TITRE] · Arménien oriental</title>
+  <link rel="stylesheet" href="../assets/lesson.css">
+</head>
+<body>
+
+<!-- ---- En-tête Tufte ---- -->
+<p class="kicker">Arménien oriental · Leçon NNNN</p>
+<h1>[TITRE FR] <!-- Armenian via Python chr() ONLY --> </h1>
+<p class="subtitle">[Accroche — objectif pratique en 1 phrase]</p>
+<div class="meta">
+  <span>[DATE]</span>
+  <span>~10 min</span>
+  <a href="NNNN-1-precedent.html">← L0N Précédent</a>
+</div>
+
+<!-- ====================================================
+     VOCABULAIRE
+     Chaque mot : un .sound-row avec data-src (après génération Piper)
+     et data-hy (arménien pur via Python).
+     ==================================================== -->
+<h2>Vocabulaire — [Thème]</h2>
+<p>Écoutez, répétez, mémorisez.</p>
+
+<!-- MODÈLE sound-row : répliquer pour chaque mot -->
+<div class="sound-row">
+  <!-- Armenian via Python chr() ONLY -->
+  <span class="hy">[MOT-HY]</span>
+  <span class="pron">[pron]</span>
+  <span class="fr">[traduction]</span>
+  <!-- data-src à ajouter APRÈS génération du deck Piper (.venv-tts/bin/python tts/generate.py --lesson NNNN) -->
+  <!-- data-hy = même valeur que le span .hy ci-dessus, en arménien pur -->
+  <button class="sound" data-src="../audio/hy_NNNN_HASH.mp3" data-hy="[MOT-HY]">🔊</button>
+  <a class="forvo" href="https://forvo.com/word/[MOT-URL]/#hy" target="_blank">Forvo</a>
+</div>
+
+<!-- ====================================================
+     GRAMMAIRE
+     ==================================================== -->
+<h2>Point de grammaire</h2>
+<div class="box grammar">
+  <span class="label">Grammaire</span>
+  <p>[Explication courte]</p>
+  <!-- Armenian via Python chr() ONLY -->
+  <p><span class="hy">[EXEMPLE-HY]</span> = [traduction]</p>
+</div>
+
+<!-- ====================================================
+     DIALOGUE
+     RÈGLE : après chaque .line, vérifier que le nombre de mots
+     dans .hy == nombre de mots dans la phonétique [entre crochets].
+     ==================================================== -->
+<h2>💬 Dialogue</h2>
+<div class="dialogue">
+  <div class="line">
+    <span class="who">Belle-mère</span>
+    <span class="say">
+      <!-- Armenian via Python chr() ONLY -->
+      <span class="hy">[TEXTE-HY]</span>
+      <small>[phonétique] — [traduction FR]</small>
+    </span>
+  </div>
+  <div class="line">
+    <span class="who">Jérémie</span>
+    <span class="say">
+      <!-- Armenian via Python chr() ONLY -->
+      <span class="hy">[TEXTE-HY]</span>
+      <small>[phonétique] — [traduction FR]</small>
+    </span>
+  </div>
+</div>
+
+<!-- ====================================================
+     EXERCICES — Cartes flip (rappel actif)
+     Structure OBLIGATOIRE : .flip > .front + .back
+     ==================================================== -->
+<h2>✏️ Exercices</h2>
+<h3>1 — Rappel de vocabulaire</h3>
+<p>Cliquez <em>après</em> avoir tenté de répondre de tête.</p>
+
+<!-- MODÈLE carte flip : répliquer pour chaque carte -->
+<div class="flip">
+  <div class="front">
+    <span class="prompt-hint">Arménien → Français</span>
+    <!-- Armenian via Python chr() ONLY -->
+    <span class="hy big-hy">[MOT-HY]</span>
+  </div>
+  <div class="back">
+    [traduction] · <span class="pron">[pron]</span>
+  </div>
+</div>
+
+<!-- ====================================================
+     QCM
+     Structure OBLIGATOIRE : .quiz > .q + .opt[data-correct] + .feedback
+     - data-correct="1" sur la bonne réponse uniquement
+     - Toutes les options : même longueur approximative (pas d'indices visuels)
+     ==================================================== -->
+<h3>2 — QCM</h3>
+
+<!-- MODÈLE QCM : répliquer pour chaque question -->
+<div class="quiz">
+  <p class="q">[Question en arménien ou en français ?]</p>
+  <button class="opt" data-correct="0">[Option A]</button>
+  <button class="opt" data-correct="1">[Option B — bonne réponse]</button>
+  <button class="opt" data-correct="0">[Option C]</button>
+  <div class="feedback">[Explication après réponse : pourquoi c'est correct.]</div>
+</div>
+
+<!-- ====================================================
+     SAISIE LIBRE
+     data-answer = réponse attendue EN MINUSCULE (comparaison insensible à la casse)
+     textContent de .saisie-answer = texte affiché si faux (avec prononciation)
+     ==================================================== -->
+<h3>3 — Saisie</h3>
+<p>Écris la réponse en arménien, puis appuie sur Entrée.</p>
+
+<!-- MODÈLE saisie : répliquer pour chaque question -->
+<div class="saisie">
+  <p class="q">Comment dit-on « [FR] » en arménien ?</p>
+  <div class="saisie-row">
+    <input type="text" autocomplete="off" spellcheck="false" placeholder="Écris en arménien…" lang="hy">
+    <button class="saisie-submit">→</button>
+  </div>
+  <!-- Armenian via Python chr() ONLY dans data-answer et le textContent -->
+  <div class="saisie-answer" data-answer="[MOT-HY-minuscule]">[MOT-HY] · [pron]</div>
+  <div class="feedback"></div>
+</div>
+
+<!-- ====================================================
+     PIED DE PAGE
+     ==================================================== -->
+<div class="footer">
+  <div class="ask">
+    💬 <b>Des questions sur cette leçon ?</b> Posez-les dans le terminal Claude —
+    votre professeur peut corriger vos phrases, expliquer un point de grammaire,
+    ou créer des exercices supplémentaires.
+  </div>
+  <p><a href="NNNN-1-precedent.html">← Leçon précédente</a></p>
+</div>
+
+<script src="../assets/audio.js"></script>
+<script src="../assets/flashcard.js"></script>
+<script src="../assets/input.js"></script>
+<script src="../assets/report.js"></script>
+</body>
+</html>

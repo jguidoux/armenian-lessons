@@ -1,0 +1,47 @@
+{
+  "lesson": "0009",
+  "slug": "le-temps",
+  "title": "Le temps",
+  "entries": [
+    {
+      "hy": "երբ",
+      "hy_clean": "երբ",
+      "pron": "jeɾb",
+      "fr": "quand ? (mot interrogatif)",
+      "ex_hy": "ե՞րբ ես գալիս։",
+      "ex_fr": "Quand viens-tu ?"
+    },
+    {
+      "hy": "այսօր",
+      "hy_clean": "այսօր",
+      "pron": "ɑjsoɾ",
+      "fr": "aujourd'hui",
+      "ex_hy": "այսօր չե՞ս գալիս։",
+      "ex_fr": "Tu ne viens pas aujourd'hui ?"
+    },
+    {
+      "hy": "վաղը",
+      "hy_clean": "վաղը",
+      "pron": "vɑʁə",
+      "fr": "demain",
+      "ex_hy": "վաղը գալիս եմ։",
+      "ex_fr": "Je viens demain."
+    },
+    {
+      "hy": "առավոտ",
+      "hy_clean": "առավոտ",
+      "pron": "ɑrɑvot",
+      "fr": "matin",
+      "ex_hy": "առավոտ։",
+      "ex_fr": "Le matin."
+    },
+    {
+      "hy": "երեկո",
+      "hy_clean": "երեկո",
+      "pron": "jeɾeko",
+      "fr": "soir",
+      "ex_hy": "երեկո։",
+      "ex_fr": "Le soir."
+    }
+  ]
+}

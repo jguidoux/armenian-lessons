@@ -1,0 +1,39 @@
+{
+  "lesson": "0011",
+  "slug": "en-visite",
+  "title": "En visite",
+  "entries": [
+    {
+      "hy": "հյուր",
+      "hy_clean": "հյուր",
+      "pron": "hjuɾ",
+      "fr": "invité(e), visiteur",
+      "ex_hy": "Բարի գալուստ։",
+      "ex_fr": "Bienvenue."
+    },
+    {
+      "hy": "Բարի գալուստ",
+      "hy_clean": "Բարի գալուստ",
+      "pron": "bɑɾi ɡɑlust",
+      "fr": "bienvenue (dit par l'hôte)",
+      "ex_hy": "Բարի գալուստ, Ինչպե՞ս ես։",
+      "ex_fr": "Bienvenue, comment vas-tu ?"
+    },
+    {
+      "hy": "Ցտեսություն",
+      "hy_clean": "Ցտեսություն",
+      "pron": "tsʰtesutʰjun",
+      "fr": "au revoir (formule polie/générale)",
+      "ex_hy": "Ցտեսություն։",
+      "ex_fr": "Au revoir."
+    },
+    {
+      "hy": "Հաջողություն",
+      "hy_clean": "Հաջողություն",
+      "pron": "hɑdʒoʁutʰjun",
+      "fr": "au revoir informel, « bonne continuation » (litt. succès)",
+      "ex_hy": "Հաջողություն։",
+      "ex_fr": "À bientôt (entre proches)."
+    }
+  ]
+}

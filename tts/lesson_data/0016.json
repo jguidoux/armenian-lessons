@@ -1,0 +1,39 @@
+{
+  "lesson": "0016",
+  "slug": "petits-mots-de-conversation",
+  "title": "Petits mots de conversation",
+  "entries": [
+    {
+      "hy": "Վայ",
+      "hy_clean": "Վայ",
+      "pron": "vɑj",
+      "fr": "Wow !",
+      "ex_hy": "Վայ։ Շատ համով է։",
+      "ex_fr": "Wow ! C'est très bon."
+    },
+    {
+      "hy": "Իսկապե՞ս",
+      "hy_clean": "Իսկապես",
+      "pron": "iskɑpés",
+      "fr": "Vraiment ?",
+      "ex_hy": "Իսկապե՞ս։ Ինչքան լավ է։",
+      "ex_fr": "Vraiment ? Comme c'est bien !"
+    },
+    {
+      "hy": "Հրաշալի է",
+      "hy_clean": "Հրաշալի է",
+      "pron": "hɾɑʃɑli e",
+      "fr": "C'est formidable !",
+      "ex_hy": "Վաղը գալիս եմ։ Հրաշալի է։",
+      "ex_fr": "Je viens demain. C'est formidable !"
+    },
+    {
+      "hy": "Ինչքան լավ է",
+      "hy_clean": "Ինչքան լավ է",
+      "pron": "intʃʰkʰɑn lɑv e",
+      "fr": "Comme c'est bien !",
+      "ex_hy": "Ինչքան լավ է։",
+      "ex_fr": "Comme c'est bien !"
+    }
+  ]
+}

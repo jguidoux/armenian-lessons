@@ -1,0 +1,47 @@
+{
+  "lesson": "0007",
+  "slug": "negation",
+  "title": "La negation",
+  "entries": [
+    {
+      "hy": "չեմ",
+      "hy_clean": "չեմ",
+      "pron": "tʃʰem",
+      "fr": "(je) ne suis pas",
+      "ex_hy": "Ես հոգնած չեմ։",
+      "ex_fr": "Je ne suis pas fatigué."
+    },
+    {
+      "hy": "չես",
+      "hy_clean": "չես",
+      "pron": "tʃʰes",
+      "fr": "(tu) n'es pas",
+      "ex_hy": "Դու սոված չես։",
+      "ex_fr": "Tu n'as pas faim."
+    },
+    {
+      "hy": "չի",
+      "hy_clean": "չի",
+      "pron": "tʃʰi",
+      "fr": "(il/elle) n'est pas — irrégulier !",
+      "ex_hy": "Նա ուրախ չի։",
+      "ex_fr": "Il / elle n'est pas content(e)."
+    },
+    {
+      "hy": "չէ",
+      "hy_clean": "չէ",
+      "pron": "tʃʰɛ",
+      "fr": "non (familier, à l'oral)",
+      "ex_hy": "Չէ, շնորհակալ եմ։",
+      "ex_fr": "Non, merci."
+    },
+    {
+      "hy": "հա",
+      "hy_clean": "հա",
+      "pron": "ha",
+      "fr": "oui (familier, à l'oral)",
+      "ex_hy": "Հա, խնդրեմ։",
+      "ex_fr": "Oui, s'il te plaît."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": "0014",
+  "slug": "parler-des-autres",
+  "title": "Parler des autres",
+  "entries": [
+    {
+      "hy": "նա",
+      "hy_clean": "նա",
+      "pron": "na",
+      "fr": "il / elle (pronom)",
+      "ex_hy": "Նա ուրախ է։",
+      "ex_fr": "Il/elle est content(e)."
+    },
+    {
+      "hy": "անել",
+      "hy_clean": "անել",
+      "pron": "anel",
+      "fr": "faire (infinitif)",
+      "ex_hy": "Ի՞նչ է անում։",
+      "ex_fr": "Qu'est-ce qu'il/elle fait ?"
+    },
+    {
+      "hy": "անում է",
+      "hy_clean": "անում է",
+      "pron": "anum e",
+      "fr": "(il/elle) fait",
+      "ex_hy": "Հայրիկս ի՞նչ է անում։",
+      "ex_fr": "Que fait mon père ?"
+    },
+    {
+      "hy": "Ի՞նչ է անում",
+      "hy_clean": "Ինչ է անում",
+      "pron": "inch e anum",
+      "fr": "qu'est-ce qu'il/elle fait ?",
+      "ex_hy": "Մայրիկս ուտում է։",
+      "ex_fr": "Ma mère mange."
+    }
+  ]
+}

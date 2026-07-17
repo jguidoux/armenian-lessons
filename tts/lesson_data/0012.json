@@ -1,0 +1,47 @@
+{
+  "lesson": "0012",
+  "slug": "jours-semaine",
+  "title": "Les jours",
+  "entries": [
+    {
+      "hy": "օր",
+      "hy_clean": "օր",
+      "pron": "oɾ",
+      "fr": "jour",
+      "ex_hy": "Ի՞նչ օր է այսօր։",
+      "ex_fr": "Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "hy": "ինչ",
+      "hy_clean": "ինչ",
+      "pron": "intʃʰ",
+      "fr": "quoi, quel (mot interrogatif)",
+      "ex_hy": "Ի՞նչ օր է այսօր։",
+      "ex_fr": "Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "hy": "Ուրբաթ",
+      "hy_clean": "Ուրբաթ",
+      "pron": "uɾbɑtʰ",
+      "fr": "vendredi",
+      "ex_hy": "Ուրբաթ է։",
+      "ex_fr": "C'est vendredi."
+    },
+    {
+      "hy": "Շաբաթ",
+      "hy_clean": "Շաբաթ",
+      "pron": "ʃɑbɑtʰ",
+      "fr": "samedi (aussi : semaine)",
+      "ex_hy": "Շաբաթ գալիս եմ։",
+      "ex_fr": "Je viens samedi."
+    },
+    {
+      "hy": "Կիրակի",
+      "hy_clean": "Կիրակի",
+      "pron": "kiɾɑki",
+      "fr": "dimanche",
+      "ex_hy": "Կիրակի գալիս եմ։",
+      "ex_fr": "Je viens dimanche."
+    }
+  ]
+}

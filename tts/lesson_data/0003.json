@@ -1,0 +1,71 @@
+{
+  "lesson": "0003",
+  "slug": "a-table",
+  "title": "À table",
+  "entries": [
+    {
+      "hy": "թեյ",
+      "hy_clean": "թեյ",
+      "pron": "tey",
+      "fr": "thé",
+      "ex_hy": "կուզեի թեյ, խնդրեմ։",
+      "ex_fr": "Je voudrais du thé, s'il vous plaît."
+    },
+    {
+      "hy": "ջուր",
+      "hy_clean": "ջուր",
+      "pron": "djour",
+      "fr": "eau",
+      "ex_hy": "կուզեի ջուր, խնդրեմ։",
+      "ex_fr": "Je voudrais de l'eau, s'il vous plaît."
+    },
+    {
+      "hy": "հաց",
+      "hy_clean": "հաց",
+      "pron": "hats",
+      "fr": "pain (aussi : nourriture)",
+      "ex_hy": "կուզեի հաց, խնդրեմ։",
+      "ex_fr": "Je voudrais du pain, s'il vous plaît."
+    },
+    {
+      "hy": "կոֆե",
+      "hy_clean": "կոֆե",
+      "pron": "kofé",
+      "fr": "café",
+      "ex_hy": "կուզեի կոֆե, խնդրեմ։",
+      "ex_fr": "Je voudrais un café, s'il vous plaît."
+    },
+    {
+      "hy": "Բարի ախորժակ",
+      "hy_clean": "Բարի ախորժակ",
+      "pron": "bari akhorjak",
+      "fr": "Bon appétit",
+      "ex_hy": "Բարի ախորժակ։",
+      "ex_fr": "Bon appétit !"
+    },
+    {
+      "hy": "Շատ համով է",
+      "hy_clean": "Շատ համով է",
+      "pron": "shat hamov é",
+      "fr": "C'est délicieux",
+      "ex_hy": "Այո, շատ համով է։",
+      "ex_fr": "Oui, c'est délicieux."
+    },
+    {
+      "hy": "Բավական է",
+      "hy_clean": "Բավական է",
+      "pron": "bavakan é",
+      "fr": "Ça suffit (refus poli)",
+      "ex_hy": "Շնորհակալ եմ, բավական է։",
+      "ex_fr": "Merci, ça suffit."
+    },
+    {
+      "hy": "կուզեի",
+      "hy_clean": "կուզեի",
+      "pron": "kouzeyí",
+      "fr": "je voudrais (conditionnel poli)",
+      "ex_hy": "կուզեի թեյ, խնդրեմ։",
+      "ex_fr": "Je voudrais du thé, s'il vous plaît."
+    }
+  ]
+}

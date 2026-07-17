@@ -1,0 +1,105 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+.kb-wrap{padding:1rem 0;}
+.row{display:flex;gap:4px;margin-bottom:4px;justify-content:flex-start;}
+.key{
+  display:flex;flex-direction:column;justify-content:space-between;
+  width:54px;height:52px;padding:4px 5px;
+  border:0.5px solid var(--color-border-secondary);
+  border-radius:var(--border-radius-md);
+  background:var(--color-background-primary);
+  cursor:default;
+}
+.key.wide{width:72px;}
+.key.wider{width:90px;}
+.key.space{width:220px;align-items:center;justify-content:center;}
+.key.dead{background:var(--color-background-secondary);}
+.arm-up{font-size:11px;color:var(--color-text-tertiary);line-height:1;text-align:right;}
+.arm-lo{font-size:18px;color:var(--color-text-primary);line-height:1;}
+.az-hint{font-size:9px;color:var(--color-text-tertiary);line-height:1;margin-top:1px;}
+.legend{display:flex;gap:16px;margin-top:12px;flex-wrap:wrap;}
+.leg-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--color-text-secondary);}
+.leg-swatch{width:14px;height:14px;border-radius:3px;border:0.5px solid var(--color-border-secondary);}
+.section-label{font-size:11px;font-weight:500;color:var(--color-text-tertiary);margin-bottom:6px;letter-spacing:.5px;}
+</style>
+
+<div class="kb-wrap">
+<h2 class="sr-only">Carte de référence du clavier arménien oriental mappé sur AZERTY</h2>
+
+<p class="section-label">Arménien oriental — layout AZERTY · minuscule en grand, majuscule en petit · touche AZERTY en gris</p>
+
+<div class="row">
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:13px">²</span><span class="az-hint">²</span></div>
+  <div class="key"><span class="arm-up">Ա</span><span class="arm-lo">ա</span><span class="az-hint">a/1</span></div>
+  <div class="key"><span class="arm-up">Բ</span><span class="arm-lo">բ</span><span class="az-hint">z/2</span></div>
+  <div class="key"><span class="arm-up">Գ</span><span class="arm-lo">գ</span><span class="az-hint">e/3</span></div>
+  <div class="key"><span class="arm-up">Դ</span><span class="arm-lo">դ</span><span class="az-hint">r/4</span></div>
+  <div class="key"><span class="arm-up">Ե</span><span class="arm-lo">ե</span><span class="az-hint">t/5</span></div>
+  <div class="key"><span class="arm-up">Զ</span><span class="arm-lo">զ</span><span class="az-hint">y/6</span></div>
+  <div class="key"><span class="arm-up">Է</span><span class="arm-lo">է</span><span class="az-hint">u/7</span></div>
+  <div class="key"><span class="arm-up">Ը</span><span class="arm-lo">ը</span><span class="az-hint">i/8</span></div>
+  <div class="key"><span class="arm-up">Թ</span><span class="arm-lo">թ</span><span class="az-hint">o/9</span></div>
+  <div class="key"><span class="arm-up">Ժ</span><span class="arm-lo">ժ</span><span class="az-hint">p/0</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:12px">—</span><span class="az-hint">)/°</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:12px">«»</span><span class="az-hint">=</span></div>
+</div>
+
+<div class="row">
+  <div class="key wider dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:12px;color:var(--color-text-tertiary)">Tab</span><span class="az-hint"></span></div>
+  <div class="key"><span class="arm-up">Ի</span><span class="arm-lo">ի</span><span class="az-hint">q/A</span></div>
+  <div class="key"><span class="arm-up">Լ</span><span class="arm-lo">լ</span><span class="az-hint">w/Z</span></div>
+  <div class="key"><span class="arm-up">Խ</span><span class="arm-lo">խ</span><span class="az-hint">e/E</span></div>
+  <div class="key"><span class="arm-up">Ծ</span><span class="arm-lo">ծ</span><span class="az-hint">r/R</span></div>
+  <div class="key"><span class="arm-up">Կ</span><span class="arm-lo">կ</span><span class="az-hint">t/T</span></div>
+  <div class="key"><span class="arm-up">Հ</span><span class="arm-lo">հ</span><span class="az-hint">y/Y</span></div>
+  <div class="key"><span class="arm-up">Ձ</span><span class="arm-lo">ձ</span><span class="az-hint">u/U</span></div>
+  <div class="key"><span class="arm-up">Ղ</span><span class="arm-lo">ղ</span><span class="az-hint">i/I</span></div>
+  <div class="key"><span class="arm-up">Ճ</span><span class="arm-lo">ճ</span><span class="az-hint">o/O</span></div>
+  <div class="key"><span class="arm-up">Մ</span><span class="arm-lo">մ</span><span class="az-hint">p/P</span></div>
+  <div class="key dead"><span class="arm-up">Ե́</span><span class="arm-lo" style="font-size:14px">եւ</span><span class="az-hint">^</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:13px">՝</span><span class="az-hint">$</span></div>
+</div>
+
+<div class="row">
+  <div class="key wider dead" style="width:82px"><span class="arm-up"></span><span class="arm-lo" style="font-size:11px;color:var(--color-text-tertiary)">Caps</span></div>
+  <div class="key"><span class="arm-up">Յ</span><span class="arm-lo">յ</span><span class="az-hint">q/A</span></div>
+  <div class="key"><span class="arm-up">Ն</span><span class="arm-lo">ն</span><span class="az-hint">s/S</span></div>
+  <div class="key"><span class="arm-up">Շ</span><span class="arm-lo">շ</span><span class="az-hint">d/D</span></div>
+  <div class="key"><span class="arm-up">Ո</span><span class="arm-lo">ո</span><span class="az-hint">f/F</span></div>
+  <div class="key"><span class="arm-up">Չ</span><span class="arm-lo">չ</span><span class="az-hint">g/G</span></div>
+  <div class="key"><span class="arm-up">Պ</span><span class="arm-lo">պ</span><span class="az-hint">h/H</span></div>
+  <div class="key"><span class="arm-up">Ջ</span><span class="arm-lo">ջ</span><span class="az-hint">j/J</span></div>
+  <div class="key"><span class="arm-up">Ռ</span><span class="arm-lo">ռ</span><span class="az-hint">k/K</span></div>
+  <div class="key"><span class="arm-up">Ս</span><span class="arm-lo">ս</span><span class="az-hint">l/L</span></div>
+  <div class="key"><span class="arm-up">Վ</span><span class="arm-lo">վ</span><span class="az-hint">m/M</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:13px">՛</span><span class="az-hint">ù/%</span></div>
+  <div class="key wider dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:11px;color:var(--color-text-tertiary)">↵</span></div>
+</div>
+
+<div class="row">
+  <div class="key wider dead" style="width:100px"><span class="arm-up"></span><span class="arm-lo" style="font-size:11px;color:var(--color-text-tertiary)">⇧ Shift</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:12px">՞</span><span class="az-hint">&lt;</span></div>
+  <div class="key"><span class="arm-up">Տ</span><span class="arm-lo">տ</span><span class="az-hint">w/Z</span></div>
+  <div class="key"><span class="arm-up">Ր</span><span class="arm-lo">ր</span><span class="az-hint">x/X</span></div>
+  <div class="key"><span class="arm-up">Ց</span><span class="arm-lo">ց</span><span class="az-hint">c/C</span></div>
+  <div class="key"><span class="arm-up">Ու</span><span class="arm-lo" style="font-size:14px">ու</span><span class="az-hint">v/V</span></div>
+  <div class="key"><span class="arm-up">Փ</span><span class="arm-lo">փ</span><span class="az-hint">b/B</span></div>
+  <div class="key"><span class="arm-up">Ք</span><span class="arm-lo">ք</span><span class="az-hint">n/N</span></div>
+  <div class="key"><span class="arm-up">Օ</span><span class="arm-lo">օ</span><span class="az-hint">,/M</span></div>
+  <div class="key"><span class="arm-up">Ֆ</span><span class="arm-lo">ֆ</span><span class="az-hint">;/.</span></div>
+  <div class="key dead"><span class="arm-up"></span><span class="arm-lo" style="font-size:13px">։</span><span class="az-hint">:/!</span></div>
+  <div class="key wider dead" style="width:100px"><span class="arm-up"></span><span class="arm-lo" style="font-size:11px;color:var(--color-text-tertiary)">⇧ Shift</span></div>
+</div>
+
+<div class="row" style="margin-top:4px;">
+  <div class="key space"><span class="arm-lo" style="font-size:12px;color:var(--color-text-tertiary)">espace</span></div>
+</div>
+
+<div class="legend">
+  <div class="leg-item"><div class="leg-swatch" style="background:var(--color-background-primary)"></div>lettre arménienne</div>
+  <div class="leg-item"><div class="leg-swatch" style="background:var(--color-background-secondary)"></div>touche non-lettre (ponctuation, modificateur)</div>
+  <div class="leg-item" style="color:var(--color-text-tertiary);font-size:11px;">Grand = minuscule · petit coin haut-droite = majuscule (Shift) · gris bas = touche AZERTY correspondante</div>
+</div>
+
+</div>

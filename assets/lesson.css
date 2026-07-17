@@ -1,0 +1,164 @@
+/* ============================================================
+   Arménien oriental — feuille de style partagée des leçons
+   Inspiration : Tufte. Lisible, imprimable, sobre.
+   Réutilisée par chaque leçon et chaque fiche de référence.
+   ============================================================ */
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfcf8;
+  --muted: #6b6256;
+  --rule: #e2dccd;
+  --hy: #8a1c1c;          /* rouge "arménien" pour le texte HY */
+  --hy-soft: #f4e9e6;
+  --accent: #2c5f6f;      /* sarcelle pour les encadrés/repères */
+  --accent-soft: #e7f0f2;
+  --good: #2e6b3e;
+  --warn: #9a6b00;
+  --max: 42rem;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 6rem;
+  max-width: var(--max);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- En-tête de leçon ---- */
+.kicker {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+h1 {
+  font-size: 2.05rem;
+  line-height: 1.15;
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+}
+.subtitle { color: var(--muted); font-style: italic; margin-top: 0; }
+.meta {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.74rem;
+  color: var(--muted);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.5rem 0;
+  margin: 1.4rem 0 2rem;
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem;
+}
+
+h2 {
+  font-size: 1.28rem;
+  margin: 2.4rem 0 0.8rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid var(--hy-soft);
+}
+h3 { font-size: 1.05rem; margin: 1.6rem 0 0.5rem; }
+
+p { margin: 0.7rem 0; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+a:hover { border-bottom-color: var(--accent); }
+
+/* ---- Texte arménien ---- */
+.hy {
+  font-family: "Noto Serif Armenian", "Sylfaen", "DejaVu Serif", serif;
+  color: var(--hy);
+  font-weight: 600;
+}
+.big-hy { font-size: 2rem; line-height: 1.3; display: block; margin: 0.2rem 0; }
+
+/* ---- Tableau de vocabulaire ---- */
+table.vocab { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.96rem; }
+table.vocab th {
+  text-align: left; font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted); border-bottom: 1.5px solid var(--rule); padding: 0.4rem 0.6rem;
+}
+table.vocab td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+table.vocab td.hy { font-size: 1.25rem; white-space: nowrap; }
+.pron { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.82rem; color: var(--accent); }
+
+/* ---- Encadrés ---- */
+.box { border-radius: 8px; padding: 0.9rem 1.1rem; margin: 1.3rem 0; font-size: 0.95rem; }
+.box .label {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.08em; font-weight: 700; display: block; margin-bottom: 0.35rem;
+}
+.grammar { background: var(--accent-soft); border-left: 4px solid var(--accent); }
+.grammar .label { color: var(--accent); }
+.culture { background: var(--hy-soft); border-left: 4px solid var(--hy); }
+.culture .label { color: var(--hy); }
+.tip { background: #fff8e6; border-left: 4px solid var(--warn); }
+.tip .label { color: var(--warn); }
+
+/* ---- Dialogue ---- */
+.dialogue { margin: 1rem 0; }
+.dialogue .line { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.6rem; margin: 0.5rem 0; }
+.dialogue .who { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.78rem; color: var(--muted); text-align: right; padding-top: 0.2rem; }
+.dialogue .say .hy { font-size: 1.2rem; }
+.dialogue .say small { display: block; color: var(--muted); font-style: italic; }
+
+/* ---- Pied de leçon ---- */
+.footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: 0.9rem; color: var(--muted); }
+.footer a { font-weight: 600; }
+.ask { background: var(--accent-soft); border-radius: 8px; padding: 0.8rem 1rem; margin-top: 1.5rem; font-size: 0.9rem; }
+
+/* ---- Comparaison de glyphes (fiches de lettres piégeuses) ---- */
+.glyph-section { margin: 1.6rem 0 2.6rem; }
+.glyph-group {
+  display: flex; align-items: flex-start; justify-content: center; flex-wrap: wrap;
+  gap: 0.6rem 1.3rem; margin: 1.2rem 0 0.5rem;
+}
+.glyph-item { text-align: center; }
+.glyph-big {
+  font-family: "Noto Serif Armenian", "Sylfaen", "DejaVu Serif", serif;
+  font-size: 6.5rem; line-height: 1; color: var(--ink); font-weight: 700; display: block;
+}
+.glyph-vs {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em;
+  align-self: center; margin-top: 2.2rem;
+}
+.glyph-mini { text-align: center; font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+.glyph-mini .hy { font-size: 1.4rem; display: block; }
+.glyph-solo-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 1.8rem; margin: 1.2rem 0;
+}
+.glyph-solo { text-align: center; }
+.glyph-solo .glyph-big { font-size: 5.5rem; }
+
+/* ---- Haute lisibilité (astigmatisme) : mots-clés en majuscules ---- */
+.majuscule-focus {
+  font-family: "Noto Serif Armenian", "Sylfaen", "DejaVu Serif", serif;
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.repere {
+  background: #fff8e6; border-left: 4px solid var(--warn); border-radius: 6px;
+  padding: 0.55rem 0.9rem; margin: 0.6rem auto 0; max-width: 26rem;
+  font-size: 0.88rem; color: var(--muted); font-style: italic; text-align: center;
+}
+.repere.filled { color: var(--ink); font-style: normal; }
+
+@media print {
+  body { background: #fff; padding: 0; max-width: 100%; }
+  .quiz button, .flip { box-shadow: none; }
+}

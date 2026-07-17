@@ -1,0 +1,55 @@
+{
+  "lesson": "0006",
+  "slug": "deplacements",
+  "title": "Deplacements en ville",
+  "entries": [
+    {
+      "hy": "որտե՞ղ",
+      "hy_clean": "որտեղ",
+      "pron": "voɾteʁ",
+      "fr": "où ?",
+      "ex_hy": "Որտե՞ղ է տաքսին։",
+      "ex_fr": "Où est le taxi ?"
+    },
+    {
+      "hy": "ձախ",
+      "hy_clean": "ձախ",
+      "pron": "dzɑχ",
+      "fr": "gauche",
+      "ex_hy": "Ձախ։",
+      "ex_fr": "À gauche."
+    },
+    {
+      "hy": "աջ",
+      "hy_clean": "աջ",
+      "pron": "ɑdʒ",
+      "fr": "droite",
+      "ex_hy": "Աջ։",
+      "ex_fr": "À droite."
+    },
+    {
+      "hy": "ուղիղ",
+      "hy_clean": "ուղիղ",
+      "pron": "uʁiʁ",
+      "fr": "tout droit",
+      "ex_hy": "Ուղիղ։",
+      "ex_fr": "Tout droit."
+    },
+    {
+      "hy": "զուգարան",
+      "hy_clean": "զուգարան",
+      "pron": "zuɡɑɾɑn",
+      "fr": "toilettes",
+      "ex_hy": "Զուգարանը որտե՞ղ է։",
+      "ex_fr": "Où sont les toilettes ?"
+    },
+    {
+      "hy": "տաքսի",
+      "hy_clean": "տաքսի",
+      "pron": "tɑkʰsi",
+      "fr": "taxi",
+      "ex_hy": "Տաքսին այնտեղ է։",
+      "ex_fr": "Le taxi est là-bas."
+    }
+  ]
+}

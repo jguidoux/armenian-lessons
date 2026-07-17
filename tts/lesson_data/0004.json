@@ -1,0 +1,71 @@
+{
+  "lesson": "0004",
+  "slug": "famille",
+  "title": "La famille",
+  "entries": [
+    {
+      "hy": "ընտանիք",
+      "hy_clean": "ընտանիք",
+      "pron": "ëntanik'",
+      "fr": "famille",
+      "ex_hy": "ընտանիքս Ֆրանսիայում է։",
+      "ex_fr": "Ma famille est en France."
+    },
+    {
+      "hy": "մայրիկ",
+      "hy_clean": "մայրիկ",
+      "pron": "mayrik",
+      "fr": "maman (affectueux)",
+      "ex_hy": "մայրիկս շատ լավ է։",
+      "ex_fr": "Ma maman va très bien."
+    },
+    {
+      "hy": "հայրիկ",
+      "hy_clean": "հայրիկ",
+      "pron": "hayrik",
+      "fr": "papa (affectueux)",
+      "ex_hy": "հայրիկս շատ լավ է։",
+      "ex_fr": "Mon papa va très bien."
+    },
+    {
+      "hy": "եղբայր",
+      "hy_clean": "եղբայր",
+      "pron": "yeghbayr",
+      "fr": "frère",
+      "ex_hy": "մեկ եղբայր ունեմ։",
+      "ex_fr": "J'ai un frère."
+    },
+    {
+      "hy": "քույր",
+      "hy_clean": "քույր",
+      "pron": "k'ouyr",
+      "fr": "sœur",
+      "ex_hy": "մեկ քույր ունեմ։",
+      "ex_fr": "J'ai une sœur."
+    },
+    {
+      "hy": "կին",
+      "hy_clean": "կին",
+      "pron": "kin",
+      "fr": "femme (épouse)",
+      "ex_hy": "կինս Կարինե-ն է։",
+      "ex_fr": "Ma femme s'appelle Karine."
+    },
+    {
+      "hy": "ամուսին",
+      "hy_clean": "ամուսին",
+      "pron": "amousin",
+      "fr": "mari",
+      "ex_hy": "ամուսինս ժերեմի-ն է։",
+      "ex_fr": "Mon mari s'appelle Jérémie."
+    },
+    {
+      "hy": "երեխա",
+      "hy_clean": "երեխա",
+      "pron": "yérekha",
+      "fr": "enfant",
+      "ex_hy": "մեկ երեխա ունեմ։",
+      "ex_fr": "J'ai un enfant."
+    }
+  ]
+}

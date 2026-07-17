@@ -1,0 +1,47 @@
+{
+  "lesson": "0008",
+  "slug": "verbes-mouvement",
+  "title": "Verbes de mouvement",
+  "entries": [
+    {
+      "hy": "գնալ",
+      "hy_clean": "գնալ",
+      "pron": "ɡnɑl",
+      "fr": "aller (verbe, infinitif)",
+      "ex_hy": "Ես գնում եմ։",
+      "ex_fr": "Je vais / je pars."
+    },
+    {
+      "hy": "գնում եմ",
+      "hy_clean": "գնում եմ",
+      "pron": "ɡnum em",
+      "fr": "(je) vais / pars",
+      "ex_hy": "Գնում եմ, հոգնած եմ։",
+      "ex_fr": "Je m'en vais, je suis fatigué."
+    },
+    {
+      "hy": "գալ",
+      "hy_clean": "գալ",
+      "pron": "ɡɑl",
+      "fr": "venir (verbe, infinitif) — irrégulier au présent",
+      "ex_hy": "Ես գալիս եմ։",
+      "ex_fr": "Je viens / j'arrive."
+    },
+    {
+      "hy": "գալիս եմ",
+      "hy_clean": "գալիս եմ",
+      "pron": "ɡɑlis em",
+      "fr": "(je) viens / arrive — irrégulier (pas «gualoum em»)",
+      "ex_hy": "Չեմ գալիս։",
+      "ex_fr": "Je ne viens pas."
+    },
+    {
+      "hy": "տուն",
+      "hy_clean": "տուն",
+      "pron": "tun",
+      "fr": "maison, chez soi",
+      "ex_hy": "Տուն։",
+      "ex_fr": "À la maison / chez moi."
+    }
+  ]
+}

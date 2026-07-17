@@ -1,0 +1,47 @@
+{
+  "lesson": "0002",
+  "slug": "se-presenter",
+  "title": "Se présenter",
+  "entries": [
+    {
+      "hy": "Անունս Ժերեմի է",
+      "hy_clean": "Անունս Ժերեմի է",
+      "pron": "anouns Jérémie e",
+      "fr": "Je m'appelle Jérémie (litt. « mon nom est… »)",
+      "ex_hy": "Բարև ձեզ, անունս Ժերեմի է։",
+      "ex_fr": "Bonjour, je m'appelle Jérémie."
+    },
+    {
+      "hy": "Ես ֆրանսիացի եմ",
+      "hy_clean": "Ես ֆրանսիացի եմ",
+      "pron": "yes fransiatsi em",
+      "fr": "Je suis français",
+      "ex_hy": "Ես ֆրանսիացի եմ, Փարիզից։",
+      "ex_fr": "Je suis français, de Paris."
+    },
+    {
+      "hy": "Շատ ուրախ եմ",
+      "hy_clean": "Շատ ուրախ եմ",
+      "pron": "chat ourakh em",
+      "fr": "Enchanté(e) (litt. « très content suis »)",
+      "ex_hy": "Շատ ուրախ եմ ձեզ ճանաչել։",
+      "ex_fr": "Enchanté de vous connaître."
+    },
+    {
+      "hy": "անուն",
+      "hy_clean": "անուն",
+      "pron": "anoun",
+      "fr": "nom",
+      "ex_hy": "Անունս Ժերեմի է։",
+      "ex_fr": "Mon nom est Jérémie."
+    },
+    {
+      "hy": "ուրախ",
+      "hy_clean": "ուրախ",
+      "pron": "ourakh",
+      "fr": "content / joyeux",
+      "ex_hy": "Ես ուրախ եմ։",
+      "ex_fr": "Je suis content."
+    }
+  ]
+}

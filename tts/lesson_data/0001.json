@@ -1,0 +1,87 @@
+{
+  "lesson": "0001",
+  "slug": "salutations",
+  "title": "Salutations",
+  "entries": [
+    {
+      "hy": "Բարև",
+      "hy_clean": "Բարև",
+      "pron": "barév",
+      "fr": "Salut (informel, à 1 personne)",
+      "ex_hy": "Բարև, ի՞նչ կա։",
+      "ex_fr": "Salut, quoi de neuf ?"
+    },
+    {
+      "hy": "Բարև ձեզ",
+      "hy_clean": "Բարև ձեզ",
+      "pron": "barév dzéz",
+      "fr": "Bonjour (poli / à plusieurs)",
+      "ex_hy": "Բարև ձեզ, ինչպե՞ս եք։",
+      "ex_fr": "Bonjour, comment allez-vous ?"
+    },
+    {
+      "hy": "Ինչպե՞ս ես",
+      "hy_clean": "Ինչպես ես",
+      "pron": "intchpés es",
+      "fr": "Comment vas-tu ? (informel)",
+      "ex_hy": "Բարև, ինչպե՞ս ես։",
+      "ex_fr": "Salut, comment vas-tu ?"
+    },
+    {
+      "hy": "Ո՞նց ես",
+      "hy_clean": "Ոնց ես",
+      "pron": "vónts es",
+      "fr": "Comment ça va ? (oral, familier)",
+      "ex_hy": "Ո՞նց ես այսօր։",
+      "ex_fr": "Comment ça va aujourd'hui ?"
+    },
+    {
+      "hy": "Լավ եմ",
+      "hy_clean": "Լավ եմ",
+      "pron": "lav em",
+      "fr": "Je vais bien",
+      "ex_hy": "Լավ եմ, շնորհակալություն։",
+      "ex_fr": "Je vais bien, merci."
+    },
+    {
+      "hy": "Շնորհակալություն",
+      "hy_clean": "Շնորհակալություն",
+      "pron": "chnorhakalouthyoun",
+      "fr": "Merci",
+      "ex_hy": "Շնորհակալություն ձեզ։",
+      "ex_fr": "Merci à vous."
+    },
+    {
+      "hy": "Իսկ դու՞",
+      "hy_clean": "Իսկ դու",
+      "pron": "isk dou",
+      "fr": "Et toi ?",
+      "ex_hy": "Լավ եմ։ Իսկ դու՞։",
+      "ex_fr": "Je vais bien. Et toi ?"
+    },
+    {
+      "hy": "եմ",
+      "hy_clean": "եմ",
+      "pron": "em",
+      "fr": "(je) suis — verbe être",
+      "ex_hy": "Ես ուրախ եմ։",
+      "ex_fr": "Je suis content."
+    },
+    {
+      "hy": "ես",
+      "hy_clean": "ես",
+      "pron": "es",
+      "fr": "(tu) es — verbe être",
+      "ex_hy": "Դու լավ ես։",
+      "ex_fr": "Tu vas bien."
+    },
+    {
+      "hy": "է",
+      "hy_clean": "է",
+      "pron": "e",
+      "fr": "(il / elle) est — verbe être",
+      "ex_hy": "Նա լավ է։",
+      "ex_fr": "Il / elle va bien."
+    }
+  ]
+}

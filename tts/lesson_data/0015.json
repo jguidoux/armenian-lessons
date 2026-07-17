@@ -1,0 +1,39 @@
+{
+  "lesson": "0015",
+  "slug": "survie-conversationnelle",
+  "title": "Survie conversationnelle",
+  "entries": [
+    {
+      "hy": "Չեմ հասկանում",
+      "hy_clean": "Չեմ հասկանում",
+      "pron": "tʃʰem hɑskɑnum",
+      "fr": "Je ne comprends pas.",
+      "ex_hy": "Չեմ հասկանում, խնդրում եմ, կրկնեք։",
+      "ex_fr": "Je ne comprends pas, répétez, s'il vous plaît."
+    },
+    {
+      "hy": "Խնդրում եմ, դանդաղ խոսեք",
+      "hy_clean": "Խնդրում եմ, դանդաղ խոսեք",
+      "pron": "χndɾum em, dɑndɑʁ χosekʰ",
+      "fr": "Parlez lentement, s'il vous plaît.",
+      "ex_hy": "Խնդրում եմ, դանդաղ խոսեք։",
+      "ex_fr": "Parlez lentement, s'il vous plaît."
+    },
+    {
+      "hy": "Խնդրում եմ, կրկնեք",
+      "hy_clean": "Խնդրում եմ, կրկնեք",
+      "pron": "χndɾum em, kɾknekʰ",
+      "fr": "Répétez, s'il vous plaît.",
+      "ex_hy": "Խնդրում եմ, կրկնեք։",
+      "ex_fr": "Répétez, s'il vous plaît."
+    },
+    {
+      "hy": "Ի՞նչ է սա",
+      "hy_clean": "Ինչ է սա",
+      "pron": "intʃʰ e sɑ",
+      "fr": "Qu'est-ce que c'est ?",
+      "ex_hy": "Ի՞նչ է սա։ Շատ համով է։",
+      "ex_fr": "Qu'est-ce que c'est ? C'est très bon."
+    }
+  ]
+}

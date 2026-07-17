@@ -1,0 +1,55 @@
+{
+  "lesson": "0005",
+  "slug": "sentiments",
+  "title": "Sentiments",
+  "entries": [
+    {
+      "hy": "ուրախ",
+      "hy_clean": "ուրախ",
+      "pron": "uɾɑχ",
+      "fr": "content, joyeux",
+      "ex_hy": "Ես ուրախ եմ։",
+      "ex_fr": "Je suis content."
+    },
+    {
+      "hy": "տխուր",
+      "hy_clean": "տխուր",
+      "pron": "təχuɾ",
+      "fr": "triste",
+      "ex_hy": "Ես տխուր եմ։",
+      "ex_fr": "Je suis triste."
+    },
+    {
+      "hy": "հոգնած",
+      "hy_clean": "հոգնած",
+      "pron": "hoɡnɑts",
+      "fr": "fatigué(e)",
+      "ex_hy": "Ես հոգնած եմ։",
+      "ex_fr": "Je suis fatigué."
+    },
+    {
+      "hy": "լավ",
+      "hy_clean": "լավ",
+      "pron": "lɑv",
+      "fr": "bien, bon(ne)",
+      "ex_hy": "Ես լավ եմ։",
+      "ex_fr": "Je vais bien."
+    },
+    {
+      "hy": "վատ",
+      "hy_clean": "վատ",
+      "pron": "vɑt",
+      "fr": "mal, mauvais(e)",
+      "ex_hy": "Ես վատ եմ։",
+      "ex_fr": "Je vais mal."
+    },
+    {
+      "hy": "սոված",
+      "hy_clean": "սոված",
+      "pron": "sovɑts",
+      "fr": "affamé(e) / j'ai faim",
+      "ex_hy": "Ես սոված եմ։",
+      "ex_fr": "J'ai faim."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "lesson": "0013",
+  "slug": "repas-approfondi",
+  "title": "Repas approfondi",
+  "entries": [
+    {
+      "hy": "ուտել",
+      "hy_clean": "ուտել",
+      "pron": "utel",
+      "fr": "manger (infinitif)",
+      "ex_hy": "Բարի ախորժակ։ Ի՞նչ ես ուտում։",
+      "ex_fr": "Bon appétit. Qu'est-ce que tu manges ?"
+    },
+    {
+      "hy": "ուտում եմ",
+      "hy_clean": "ուտում եմ",
+      "pron": "utum em",
+      "fr": "(je) mange",
+      "ex_hy": "Հաց ուտում եմ։",
+      "ex_fr": "Je mange du pain."
+    },
+    {
+      "hy": "խմել",
+      "hy_clean": "խմել",
+      "pron": "χəmel",
+      "fr": "boire (infinitif)",
+      "ex_hy": "Ես թեյ խմում եմ։ Մի քիչ հաց ուզու՞մ ես։",
+      "ex_fr": "Moi, je bois du thé. Tu veux un peu de pain ?"
+    },
+    {
+      "hy": "խմում եմ",
+      "hy_clean": "խմում եմ",
+      "pron": "χəmum em",
+      "fr": "(je) bois",
+      "ex_hy": "Թեյ խմում եմ։",
+      "ex_fr": "Je bois du thé."
+    },
+    {
+      "hy": "մի քիչ",
+      "hy_clean": "մի քիչ",
+      "pron": "mi kʰitʃʰ",
+      "fr": "un peu",
+      "ex_hy": "Մի քիչ հաց ուզու՞մ ես։",
+      "ex_fr": "Tu veux un peu de pain ?"
+    }
+  ]
+}
