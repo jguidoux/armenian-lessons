@@ -255,7 +255,11 @@ Les leçons sont à http://127.0.0.1:8765/lessons/NNNN-*.html (audio Piper fonct
   avec espacement large ; pour des lettres/formes confondables, **entraîner
   en isolation** (une à la fois, via de vrais mots) avant de les confronter
   entre elles — les présenter groupées d'emblée peut renforcer la confusion.
-  Voir `lessons/0017-majuscules-pieges.html` pour un exemple appliqué.
+  Voir `lessons/0017-majuscules-pieges.html` pour un exemple appliqué. Pour
+la pratique active (« écrit »), Jérémie a choisi explicitement la **saisie
+clavier** (il a un clavier arménien configuré sur son téléphone) plutôt que
+le traçage tactile ou une fiche imprimable — chaque bloc-lettre a un flip
+puis une saisie du même mot, pas une nouvelle vocabulaire.
 - Points de blocage récurrents :
   - `ո` initial = « vo » (écrit ո, dit vo).
   - Choix եմ vs է : un nom/3e personne prend **է** (ex. « Անունս … է »), pas եմ. Reconfirmé en
