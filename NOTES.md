@@ -284,11 +284,16 @@ puis une saisie du même mot, pas une nouvelle vocabulaire.
     plutôt qu'une vraie confusion de lettres — à confirmer si ça se reproduit.
   - **Majuscules piégeuses en lecture de rue** (identifié 17/07, en Arménie) : confusion par
     groupes, pas par paires isolées — **Groupe 1** Դ/Ղ/Ռ, **Groupe 2** Ձ/Ջ/Ծ/Ճ, **Groupe 3**
-    Յ/Ց. Զ reste isolée (pas de confusion précise identifiée). Une première hypothèse par
-    paires (Դ↔Տ, Ձ↔Ջ, Ց↔Ո, dans `majuscules-a-verifier.md`) était fausse — corrigée en
-    session après comparaison visuelle. Travaillé en isolation (cf. profil visuel ci-dessus)
-    dans `lessons/0017-majuscules-pieges.html`. Ծ et Ճ n'avaient aucun mot maîtrisé dans
+    Յ/Ց. Une première hypothèse par paires (Դ↔Տ, Ձ↔Ջ, Ց↔Ո, dans
+    `majuscules-a-verifier.md`) était fausse — corrigée en session après comparaison visuelle.
+    Travaillé en isolation (cf. profil visuel ci-dessus) dans
+    `lessons/0017-majuscules-pieges.html`. Ծ et Ճ n'avaient aucun mot maîtrisé dans
     `GLOSSARY.md` — nouveaux mots utilisés (ծով, ճաշ), vérifiés via Wiktionnaire.
+    **Mise à jour 20/07/2026** : Զ (crue isolée) rejoint en fait le **Groupe 2**, qui s'élargit
+    aussi à **Չ** (jamais signalée avant) — **Groupe 2 complet : Ձ/Ջ/Ծ/Ճ/Զ/Չ** (6 lettres).
+    Jérémie précise que **Զ↔Ջ est la paire la plus dure** de tout le groupe. Չ n'est pas
+    encore dans la leçon 0017 (identifiée après coup) — à ajouter, avec un mot réel à sourcer
+    (absent de `GLOSSARY.md`, comme Ծ/Ճ l'étaient).
 
 ## Convention de prononciation utilisée dans ce cours
 - Transcription latine « à la française » entre crochets, ex. [barév].
